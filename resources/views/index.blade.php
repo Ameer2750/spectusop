@@ -556,9 +556,49 @@
 
                 </div>
             </div>
+        </div>
 
 
+        <!-- Partners In Excellence -->
+        <div class="flex flex-col justify-center items-center gap-14 py-10">
+            <div class="flex flex-col justify-center items-center gap-3">
+                <h2 class="text-[2.5rem]">Partners In <b>Excellence</b> </h2>
+                <div class="flex flex-row gap-[8rem]">
+                    <img src="{{asset('images/partners/beach-booker.svg')}}" alt="">
+                    <img src="{{asset('images/partners/artisan.svg')}}" alt="">
+                    <img src="{{asset('images/partners/prutech.svg')}}" alt="">
+                    <img src="{{asset('images/partners/snf-data.svg')}}" alt="">
+                </div>
+            </div>
+            <div class="flex flex-row">
+                <div>
+                    <img src="{{asset('images/parnter-hero-image.webp')}}" alt="">
+                </div>
+                <div class="flex flex-col gap-10">
+                    <h2 class="text-[2.5rem] -ml-14">
+                        <span class="">Your Success Is Our</span>
+                        <br>
+                        <span class="ml-14 "> <b>Greatest Reward</b></span>
 
+                    </h2>
+                    <p class="text-xl ml-14 ">
+                        Your success fuels our drive to help <br> businesses like yours make a lasting impact.
+                    </p>
+                    <div class="flex flex-row justify-between gap-2 pb-14 mt-6 ml-14">
+
+                        <div class="">
+                            <button class="px-8 py-3 rounded-lg bg-[#082b3f] text-white text-2xl font-semibold">
+                                <span class="ml-3">Let&apos;s Talk</span>
+                                <span class="material-symbols-outlined ">
+                                    arrow_forward
+                                </span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
