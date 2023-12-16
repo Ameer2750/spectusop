@@ -602,8 +602,89 @@
 
 
 
+        <!--        Our Client's Words Speak -->
+        <div class="flex flex-col gap-5 mb-14">
+
+            <!-- row 1 -->
+            <div class="flex flex-row justify-center items-start gap-7">
+                <div>
+                    <h2 class="text-[2.5rem] ">
+                        <span>Our Client's Words Speak</span>
+                        <br>
+                        <span class="-ml-14"><b>Louder Than Ours</b></span>
+                    </h2>
+                    <p class="text-xl ">
+                        Happy Partners are the chattiest. They have <br> a lot to say!
+                    </p>
+                </div>
+
+                <div class="bg-[#ffcbe7] p-6 flex flex-row w-[40%] items-center justify-between">
+                    <div class="w-[75%] flex flex-col gap-4">
+                        <div>
+                            <img src="{{asset('images/clients/quote.svg')}}" alt="">
+                        </div>
+                        <p class="text-sm">Their developers are exceptionally skilled, and they brought our vision</p>
+                        <p class="text-sm">to life with remarkable precision. The user interface they crafted is not
+                            only aesthetically
+                            pleasing but also highly intuitive, ensuring a delightful experience for our users.</p>
+                        <p class="text-lg font-semibold">Yogi Anoop Ji</p>
+                    </div>
+                    <div class="w-[25%] flex justify-end">
+                        <img class="rounded-full" src="{{asset('images/clients/yogi_anoop_1-1.webp')}}" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 -->
+            <div class="flex flex-row justify-center items-center">
+                <div class="bg-[#d2cbff] p-6 flex flex-row w-[40%] items-center justify-between">
+                    <div class="w-[75%] flex flex-col gap-4">
+                        <div>
+                            <img src="{{asset('images/clients/quote.svg')}}" alt="">
+                        </div>
+                        <p class="text-sm">SpectusOp Application Development exceeded my expectations with
+
+                        </p>
+                        <p class="text-sm">their exceptional expertise, creativity, and attention to detail. I highly
+                            recommend them for anyone seeking top-notch website development services.
+                        </p>
+                        <p class="text-lg font-semibold">Phani Gongura
+                        </p>
+                    </div>
+                    <div class="w-[25%] flex justify-end">
+                        <img class="rounded-full" src="{{asset('images/clients/yogi_anoop_1-1.webp')}}" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 3 -->
+            <div class="relative mt-10">
+                <div class="bg-[#091036] h-56 w-full"></div>
+                <div class="absolute -top-10 -right-[37rem]	">
+                    <div class="bg-[#cbffd9] p-6 flex flex-row w-[40%] items-center  justify-between">
+                        <div class="w-[75%] flex flex-col gap-4">
+                            <div>
+                                <img src="{{asset('images/clients/quote.svg')}}" alt="">
+                            </div>
+                            <p class="text-sm">SpectusOp Application Development exceeded my expectations with
+
+                            </p>
+                            <p class="text-sm">their exceptional expertise, creativity, and attention to detail. I
+                                highly
+                                recommend them for anyone seeking top-notch website development services.
+                            </p>
+                            <p class="text-lg font-semibold">Phani Gongura
+                            </p>
+                        </div>
+                        <div class="w-[25%] flex justify-end">
+                            <img class="rounded-full" src="{{asset('images/clients/yogi_anoop_1-1.webp')}}" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
 
 
 
