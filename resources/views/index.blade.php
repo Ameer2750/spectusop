@@ -70,11 +70,11 @@
                     </h1>
                 </div>
 
-                <div class="flex flex-row justify-between gap-10 pb-14 mt-6">
+                <div class="flex flex-row justify-between gap-2 pb-14 mt-6">
 
                     <div class="flex self-end justify-center w-[50%] ">
                         <button class="px-8 py-3 rounded-lg bg-[#082b3f] text-white text-2xl font-semibold">
-                            <span>Let&apos;s Talk</span>
+                            <span class="ml-3">Let&apos;s Talk</span>
                             <span class="material-symbols-outlined ">
                                 arrow_forward
                             </span>
@@ -83,16 +83,16 @@
 
 
 
-                    <div class="w-[50%]">
+                    <div class="flex flex-col gap-2 w-[50%] ">
 
-                        <p class="text-lg">
+                        <p class="mb-5 text-xl">
                             Not just your Tech Partners. We are the invisible force behind your groundbreaking ideas,
                             and we
                             ensure your ideas thrive to see the light of day.
 
                         </p>
 
-                        <p class="text-lg">
+                        <p class="text-xl mb-5">
                             Got a Business Idea? We&apos;ll Tech it from here.
                         </p>
 
@@ -107,11 +107,11 @@
 
         <!-- Expand Your Reach Without Stretching -->
 
-        <div class="py-10 flex flex-col justify-center items-center gap-5">
-            <div class="flex flex-col gap-2 justify-center items-center">
+        <div class="py-10 flex flex-col justify-center items-center gap-14">
+            <div class="flex flex-col gap-1 justify-center items-center">
                 <!-- row-1 -->
 
-                <h1 class="text-[2.5rem]">
+                <h1 class="text-[2.7rem]">
                     Expand Your Reach Without Stretching
 
                 </h1>
@@ -123,79 +123,273 @@
                 </h1>
 
                 <!-- row-3 -->
-                <p class="text-lg">
+                <p class="text-xl">
                     Experience first-hand how the synergy of Offshore and Onshore teams is a winning combination!
 
                 </p>
             </div>
 
-            <!-- row 4 -->
-            <div class="flex flex-row">
-                <div class=" flex justify-center items-center bg-[#d2cbff] w-[50%] h-[200px]	">
-                    <img src="{{asset('images/bar-chart-fill.svg')}}" alt="bar-chart">
+            <div class="flex flex-col justify-center items-center gap-5">
+                <!-- row 4 -->
+                <div class="flex flex-row gap-3 w-[65%] ">
+                    <div class=" flex justify-center items-center bg-[#d2cbff] w-[50%] h-[210px] ">
+                        <img src="{{asset('images/bar-chart-fill.svg')}}" alt="bar-chart">
+
+                    </div>
+
+                    <div class="flex flex-col justify-center  w-[50%] ">
+                        <h2 class=" text-2xl ">
+                            Cost <b>Savings</b>
+
+                        </h2>
+                        <p class=" text-xl ">
+                            Our team of experienced developers can deliver high-quality work at a fraction of the cost
+                            of
+                            Onshore developers.
+
+                        </p>
+                    </div>
+
 
                 </div>
 
+                <!-- row 5-->
+                <div class="flex flex-row gap-3 w-[65%] ">
+                    <div class="flex flex-col justify-center  w-[50%] text-right ">
+                        <h2 class=" text-2xl ">
+                            24/7 <b>Productivity</b>
+
+                        </h2>
+                        <p class=" text-xl ">
+                            Accelerate project timelines by up to 50% with our 24/7 development cycle.
+
+                        </p>
+                    </div>
+
+                    <div class=" flex justify-center items-center bg-[#ffcbe7] w-[50%] h-[210px]	">
+                        <img src="{{asset('images/up-arrow.svg')}}" alt="up-arrow">
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- row 6-->
+                <div class="flex flex-row gap-3 w-[65%] ">
+                    <div class=" flex justify-center items-center bg-[#cbffd9] w-[50%] h-[210px]	">
+                        <img src="{{asset('images/square.svg')}}" alt="square">
+
+                    </div>
+
+                    <div class="flex flex-col justify-center  w-[50%] ">
+                        <h2 class=" text-2xl ">
+                            Enhanced <b>Flexibility</b>
+
+                        </h2>
+                        <p class=" text-xl ">
+                            Offshore teams enable you to scale up or down quickly to meet changing project needs.
+
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- perks of works -->
+
+        <div class="py-10 flex flex-col justify-center items-center gap-14 bg-[#091036] text-white mb-4">
+            <div class="flex flex-col gap-1 justify-center items-center">
                 <div>
-                    <h2>
-                        Cost Savings
-
-                    </h2>
-                    <p>
-                        Our team of experienced developers can deliver high-quality work at a fraction of the cost of
-                        Onshore developers.
-
-                    </p>
+                    <h1 class="text-[2.7rem]">Perks Of Working<b> With Us</b></h1>
                 </div>
+
+
+
+
+
+                <div class="flex flex-row justify-between gap-4 mx-[7rem] py-5">
+
+                    <!-- 1st box -->
+
+                    <div class="flex flex-col gap-[5rem] bg-[#313656]  pt-4 pb-6 px-3">
+                        <div>
+                            <img src="{{asset('images\nem-xem.svg')}}" alt="">
+                        </div>
+                        <div class="flex flex-col gap-4 mx-2">
+
+                            <div>
+                                <p class="text-[1.2rem]">
+                                    01.
+                                </p>
+
+                                <h4 class="text-[#fff0cb] text-[1.75rem] font-semibold">
+                                    Unparalleled
+                                </h4>
+
+                                <h4 class="text-[1.75rem]">
+                                    Expertise
+
+
+                                </h4>
+                            </div>
+
+                            <hr>
+
+                            <p class="text-lg">
+                                Our team of professionals have successfully navigated complex tech landscapes throughout
+                                their careers.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- 2nd box -->
+
+
+
+                    <div class="flex flex-col gap-[5rem] bg-[#313656]  pt-4 pb-6 px-3">
+                        <div>
+                            <img src="{{asset('images\dash-dash.svg')}}" alt="">
+                        </div>
+                        <div class="flex flex-col gap-4 mx-2">
+
+                            <div>
+                                <p class="text-[1.2rem]">
+                                    02.
+
+                                </p>
+
+                                <h4 class="text-[#cbffd9] text-[1.75rem] font-semibold">
+                                    Customized
+                                </h4>
+
+                                <h4 class="text-[1.75rem]">
+                                    Solutions
+
+
+                                </h4>
+                            </div>
+
+                            <hr>
+
+                            <p class="text-lg">
+                                We tailor tech solutions to your unique business needs, ensuring our services align with
+                                your specific requirements.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- 3rd box -->
+                    <div class="flex flex-col gap-[5rem] bg-[#313656]  pt-4 pb-6 px-3">
+                        <div>
+                            <img src="{{asset('images\framer.svg')}}" alt="">
+                        </div>
+                        <div class="flex flex-col gap-4 mx-2">
+
+                            <div>
+                                <p class="text-[1.2rem]">
+                                    03.
+
+                                </p>
+
+                                <h4 class="text-[#ffcdcd] text-[1.75rem] font-semibold">
+                                    Scalable
+                                </h4>
+
+                                <h4 class="text-[1.75rem]">
+                                    Solutions
+
+
+                                </h4>
+                            </div>
+
+                            <hr>
+
+                            <p class="text-lg">
+                                With our flexible approach, you can ramp up your development team for new projects or
+                                scale back during slow periods.
+
+
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- 4th box -->
+
+                    <div class="flex flex-col gap-[5rem] bg-[#313656]  pt-4 pb-6 px-3">
+                        <div>
+                            <img src="{{asset('images\ontology-ont.svg')}}" alt="">
+                        </div>
+                        <div class="flex flex-col gap-4 mx-2">
+
+                            <div>
+                                <p class="text-[1.2rem]">
+                                    04.
+
+                                </p>
+
+                                <h4 class="text-[#b6aaff] text-[1.75rem] font-semibold">
+                                    Data
+                                </h4>
+
+                                <h4 class="text-[1.75rem]">
+                                    Security
+
+
+                                </h4>
+                            </div>
+
+                            <hr>
+
+                            <p class="text-lg">
+                                We take security seriously and our team of experts is dedicated to ensuring that your
+                                data is kept confidential.
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex flex-row gap-10 justify-between items-center my-10  mx-14 w-[90%]">
+                    <div class="flex flex-col gap-5 w-[50%] ">
+                        <h4 class="text-[3rem] ml-8">
+                            Our Invisible Hand
+                        </h4>
+
+                        <h4 class="text-[2.7rem] mr-14 text-right -mt-6">
+                            <b> In Action</b>
+
+                        </h4>
+
+                    </div>
+                    <div class="left-1/2 -ml-0.5 w-0.5 h-72 bg-gray-600"></div>
+
+
+
+                    <div class="w-[50%] flex flex-col gap-5 ">
+                        <p class="text-[1.3rem]">We harness the power of our ingeniously skilled team, and seamlessly
+                            integrate into our clients&apos; teams, becoming an extension of their own.
+                        </p>
+                        <p class="text-[1.3rem]">We provide the expertise, guidance, and support needed to turn your
+                            vision into tangible success.
+
+                        </p>
+
+
+                    </div>
+                </div>
+
 
 
             </div>
-
-            <!-- row 5-->
-            <div class="flex flex-row">
-
-                <div>
-                    <h2>
-                        24/7 Productivity
-
-                    </h2>
-                    <p>
-                        Accelerate project timelines by up to 50% with our 24/7 development cycle.
-
-                    </p>
-                </div>
-
-                <div class=" flex justify-center items-center bg-[#ffcbe7] w-[50%] h-[200px]	">
-                    <img src="{{asset('images/up-arrow.svg')}}" alt="bar-chart">
-
-                </div>
-
-
-            </div>
-
-
-            <!-- row 6-->
-            <div class="flex flex-row">
-                <div class=" flex justify-center items-center bg-[#cbffd9] w-[50%] h-[200px]	">
-                    <img src="{{asset('images/square.svg')}}" alt="bar-chart">
-
-                </div>
-
-                <div>
-                    <h2>
-                        Enhanced Flexibility
-
-                    </h2>
-                    <p>
-                        Offshore teams enable you to scale up or down quickly to meet changing project needs.
-
-                    </p>
-                </div>
-
-
-            </div>
-
-
 
 
 
@@ -204,6 +398,63 @@
 
 
         </div>
+
+
+        <!-- tailored pricing -->
+        <div class=" bg-[#cbffd9] py-20 ">
+            <div class="flex flex-row mb-5 mx-14 gap-14 justify-center items-center w-[85%]">
+                <div class="w-[50%] flex flex-col gap-5 ">
+                    <p class="text-[1.3rem]">Pricing that&apos;s as clear as day, so you can focus on what matters most.
+                    </p>
+                    <p class="text-[1.3rem]">See our transparent Pricing page to discover our suite of services tailored
+                        to each stage of your journey, seamlessly integrated to guide you from ideation to market
+                        adoption.
+
+                    </p>
+
+
+                </div>
+
+                <div class="left-1/2 -ml-0.5 mr-10 w-0.5 h-[480px] bg-[#a5edce] "></div>
+
+                <div class="flex flex-col gap-10 justify-center items-start ">
+
+                    <div class="mr-2">
+                        <img src="{{asset('images\Star.svg')}}" alt="">
+                    </div>
+
+
+                    <div class="flex flex-col text-5xl gap-5 mt -5  ">
+                        <h1>Tailored</h1>
+                        <h1>Pricing To Align</h1>
+                        <h1>With <b>Your Needs</b> </h1>
+                    </div>
+
+                    <div class="flex flex-row justify-between gap-2 pb-14 mt-6">
+
+                        <div class="">
+                            <button class="px-8 py-3 rounded-lg bg-[#082b3f] text-white text-2xl font-semibold">
+                                <span class="ml-3">Let&apos;s Talk</span>
+                                <span class="material-symbols-outlined ">
+                                    arrow_forward
+                                </span>
+                            </button>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
 
 
 
