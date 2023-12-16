@@ -399,10 +399,88 @@
 
         </div>
 
+        <!--Spectrum Of Solutions  -->
+
+        <div class="bg-white flex flex-row justify-center items-center py-28   gap-5 mx-14">
+
+            <div class="flex flex-col w-[90%]">
+
+                <div class="flex flex-row  justify-start items-start">
+                    <h5 class="text-[2.75rem] w-[50%]">Tap Into Our <br>
+                        <b>Spectrum Of Solutions</b>
+                    </h5>
+
+
+                    <div>
+                        <div class=""> <img src="{{asset('images\little Star.svg')}}" alt=""></div>
+
+                        <p class="text-[1.25rem]">Your business needs a solid plan, and the right team to stay ahead of
+                            the
+                            curve.</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p class="ml-10 text-[1.25rem]">Our expert technology leaders Lead, Build, and Deliver systems and
+                        strategies that drive growth and ensure your cyber safety.</p>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- tailored pricing -->
         <div class=" bg-[#cbffd9] py-20 ">
-            <div class="flex flex-row mb-5 mx-14 gap-14 justify-center items-center w-[85%]">
+            <div class="flex flex-row mb-8 mx-14 gap-14 justify-center items-center w-[85%]">
                 <div class="w-[50%] flex flex-col gap-5 ">
                     <p class="text-[1.3rem]">Pricing that&apos;s as clear as day, so you can focus on what matters most.
                     </p>
@@ -424,7 +502,7 @@
                     </div>
 
 
-                    <div class="flex flex-col text-5xl gap-5 mt -5  ">
+                    <div class="flex flex-col text-[3.2rem] gap-5   ">
                         <h1>Tailored</h1>
                         <h1>Pricing To Align</h1>
                         <h1>With <b>Your Needs</b> </h1>
