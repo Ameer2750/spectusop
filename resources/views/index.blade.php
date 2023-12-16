@@ -401,55 +401,85 @@
 
         <!--Spectrum Of Solutions  -->
 
-        <div class="bg-white flex flex-row justify-center items-center py-28   gap-5 mx-14">
 
-            <div class="flex flex-col w-[90%]">
-
-                <div class="flex flex-row  justify-start items-start">
-                    <h5 class="text-[2.75rem] w-[50%]">Tap Into Our <br>
+        <div class="flex flex-col mb-5 ">
+            <!-- row 1 -->
+            <div class="flex flex-row justify-center items-center w-[90%] gap-14">
+                <div class="">
+                    <h2 class="text-[2.5rem] flex flex-col">
+                        <span>Tap Into Our</span>
                         <b>Spectrum Of Solutions</b>
-                    </h5>
-
-
+                    </h2>
+                </div>
+                <div class="flex flex-col gap-5">
                     <div>
-                        <div class=""> <img src="{{asset('images\little Star.svg')}}" alt=""></div>
-
-                        <p class="text-[1.25rem]">Your business needs a solid plan, and the right team to stay ahead of
-                            the
-                            curve.</p>
+                        <img src="{{asset('images\little Star.svg')}}" alt="">
                     </div>
-
+                    <p class="text-lg">
+                        Your business needs a solid plan, and the right <br>team to stay ahead of the curve.
+                    </p>
                 </div>
+            </div>
 
-                <div>
-                    <p class="ml-10 text-[1.25rem]">Our expert technology leaders Lead, Build, and Deliver systems and
-                        strategies that drive growth and ensure your cyber safety.</p>
-                </div>
-
-
-
+            <!-- row 2 -->
+            <div class="flex flex-row justify-end mx-14">
+                <p class="text-lg">
+                    Our expert technology leaders Lead, Build, and Deliver <br>systems and strategies
+                    that drive growth
+                    and
+                    ensure your <br> cyber safety.
+                </p>
             </div>
 
 
+            <!-- row 3 -->
+            <div class="flex flex-row mx-auto gap-5 mt-14">
+                <!-- box 1 -->
+                <div class="bg-[#cbffd9] pt-4 pb-6  h-[600px] flex flex-col text-left justify-between">
+                    <h2 class="text-8xl transform -rotate-90 mt-14 transform-origin-right-bottom  self-start">
+                        Lead
+                    </h2>
+                    <button>
+                        <span class="text-xl">Learn More</span>
+                        <span class="material-symbols-outlined ">
+                            arrow_forward
+                        </span>
+                    </button>
+                </div>
 
 
 
 
+                <div class="bg-[#ffcbe7] pt-4 pb-6  h-[600px] flex flex-col text-left justify-between">
+                    <h2 class="text-8xl transform -rotate-90 mt-14 transform-origin-right-bottom  self-start">
+                        Build
+
+                    </h2>
+                    <button>
+                        <span class="text-xl">Learn More</span>
+                        <span class="material-symbols-outlined ">
+                            arrow_forward
+                        </span>
+                    </button>
+                </div>
+                <div class="bg-[#d2cbff] pt-4 pb-6  h-[600px] flex flex-col text-left justify-between">
+                    <h2 class="text-8xl transform -rotate-90 mt-[6.5rem] transform-origin-right-bottom  self-start">
+                        Deliver
+                    </h2>
+                    <button>
+                        <span class="text-xl">Learn More</span>
+                        <span class="material-symbols-outlined ">
+                            arrow_forward
+                        </span>
+                    </button>
+                </div>
+            </div>
 
 
         </div>
 
 
 
-
-
-
-
-
-
-
-
-        </div>
 
 
 
